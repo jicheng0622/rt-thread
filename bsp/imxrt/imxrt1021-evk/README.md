@@ -22,6 +22,8 @@ i.MX RT1020板级包支持MDK5﹑IAR开发环境和GCC编译器，以下是具�
 | MDK5 | MDK525 |
 | IAR | IAR 8.11.3.13984 |
 
+当前RT1020_EVK板级包在RT-Thread v3.1.3版本编译通过并运行测试成功。
+
 ## 3.BSP使用
 
 ### 3.1 配置工程
@@ -42,7 +44,7 @@ EVK开发板有板载OpenSDA仿真器，仿真器还连接到i.MX RT1021的UART1
 
  \ | /
 - RT -     Thread Operating System
- / | \     4.0.1 build Mar 11 2019
+ / | \     3.1.3 build Mar 11 2019
  2006 - 2019 Copyright by rt-thread team
 [I/FLEXSPI] NorFlash Init
 [I/FLEXSPI] Vendor ID: 0x15
